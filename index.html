@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="circle"></div>
+    <button>Zakręć</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $('button').on('click', function () {
+            $('.circle').toggleClass('active');
+            console.log('jest ok')
+        })
+    </script>
+</body>
+
+</html>
